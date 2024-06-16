@@ -1,5 +1,6 @@
 import React from 'react'
 import "@styles/globals.css"
+import Navbar from '@components/Navbar'
 
 export const metdata = {
     title:"Sample Page",
@@ -14,6 +15,7 @@ const  RootLayout = ({children}) => {
                 <div className='gradient' />
             </div>
             <div className='app'>
+            <Navbar />
                 {children}
             </div>
         </body>
